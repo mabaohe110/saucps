@@ -1,0 +1,22 @@
+#mybatis-plus
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true
+
+spring:
+  #jdbc
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/saucps?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  #filter
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled=true:
+
+  main:
+    allow-bean-definition-overriding: true
+#logging:
+#  level: debug
