@@ -1,0 +1,100 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<title>前台首页</title>
+<link rel="stylesheet" type="text/css" href="../../static/css/for_css/reset.css"/>
+<script type="text/javascript" src="../../static/js/for_js/jquery-1.8.3.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../../static/plugins/FlexSlider/flexslider.css">
+<script type="text/javascript" src="../../static/plugins/FlexSlider/jquery.flexslider.js"></script>
+<script type="text/javascript" src="../../static/js/for_js/main.js"></script>
+<link rel="stylesheet" type="text/css" href="../../static/css/for_css/thems.css">
+<link rel="stylesheet" type="text/css" href="../../static/css/for_css/responsive.css">
+    <script type="text/javascript" src="../../static/js/for_js/life_time.js"></script>
+    <script type="text/javascript" src="../../static/js/for_login.js"></script>
+<script language="javascript">
+$(window).load(function() {
+  $('.flexslider').flexslider({
+	animation: "slide"
+  });
+});
+</script>
+</head>
+
+<body onload="myBody();login()">
+<!--头部-->
+<div class="header">
+    <div class="head clearfix">
+        <div class="logo"><a href=""><img src="../../static/images/for_image/logo.png" alt="深海湾"/></a></div>
+    </div>
+    <div class="space_hx">&nbsp;</div>
+    <div class="nav_m">
+        <div class="n_icon">&nbsp;</div>
+        <ul class="nav clearfix">
+            <li class="now"><a href="index.html">首页</a></li>
+            <li><a href="file_download.html">学习材料下载</a></li>
+            <li><a href="organization_life.html">组织生活制度</a></li>
+            <li><a href="organization_info.html">组织生活信息</a></li>
+            <li><a href="theme_study.html">专题学习</a></li>
+            <li><a href="life_time.html">定期提醒</a></li>
+        </ul>
+    </div>
+</div>
+<!--头部-->
+<div class="space_hx">&nbsp;</div>
+<!--幻灯片-->
+<div class="banner">
+	<div class="slider">
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+                <img src="../../static/upload/timg.jpg" alt="" />
+            </li>
+            <li>
+                <img src="../../static/upload/timg (1).jpg" alt="" />
+            </li>
+            <li>
+                <img src="../../static/upload/u=690951241,158219361&fm=26&gp=0.jpg" alt="" />
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
+<!--幻灯片-->
+<div class="space_hx">&nbsp;</div>
+<div class="i_box clearfix">
+	<div class="i_bl">
+    	<div class="box_h"><span>近期活动提醒</span></div>
+        <div class="box_m">
+            <b>今年剩余党课次数</b>
+            <p>剩余<em id="em_id"></em>次</p>
+            <b>7天内应开展的会议</b>
+            <div id="t_div"></div>
+            <b>应参加的专题学习内容</b>
+            <div id="t_div1"></div>
+        </div>
+    </div>
+    <div class="i_br">
+    	<div class="box_h">
+        	<span>高校党务系统快捷链接</span>
+            <a href=""><em>+</em> MORE</a>
+        </div>
+        <div class="box_m">
+        	<ul class="ul_a clearfix">
+            	<li><a href="file_download.html"><img src="../../static/images/for_image/pic1.jpg" alt=""/><span>材料下载</span></a></li>
+                <li><a href="theme_study.html"><img src="../../static/images/for_image/pic2.jpg" alt=""/><span>专题学习</span></a></li>
+                <li><a href="organization_info.html"><img src="../../static/images/for_image/pic3.jpg" alt=""/><span>组织生活</span></a></li>
+            </ul>
+            <div class="space_hx">&nbsp;</div>
+            <ul class="ul_b clearfix">
+            	<li><a href=""><img src="../../static/upload/u=1046448811,3152789725&fm=26&gp=0.jpg" alt=""/></a></li>
+                <li><a href=""><img src="../../static/upload/myPic.jpg" alt=""/></a></li>
+                <li><a href=""><img src="../../static/upload/u=172675826,1815282089&fm=26&gp=0.jpg" alt=""/></a></li>
+                <li><a href=""><img src="../../static/upload/u=3286078624,112452995&fm=26&gp=0.jpg" alt=""/></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</body>
+</html>
